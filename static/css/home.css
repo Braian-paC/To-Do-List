@@ -34,9 +34,9 @@
 }
 
 .container-fluid a {
+    color: black;
     margin-left: 5px;
     text-decoration: none;
-    color: black;
 }
 
 #container_home {

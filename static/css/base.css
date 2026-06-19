@@ -1,3 +1,13 @@
 html, body {
     background-color: #F9F0E3;
 }
+
+a {
+    transition: font-size 0.2s;
+    transition-delay: 0.1s;
+}
+
+a:hover {
+    color: gray;
+    font-size: 35px;
+}
