@@ -1,1 +1,3 @@
-/* reset, fontes, coisas globais */
+html, body {
+    background-color: #F9F0E3;
+}

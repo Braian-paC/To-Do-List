@@ -7,6 +7,7 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" >
 </head>
 <body>
@@ -19,8 +20,12 @@
         </div>
     </navbar>
 
-    <div class="container-fluid">
-        <h1>Em breve, mais detalhes sobre...</h1>
+    <div class="container-fluid" id="container_home">
+        <h1>Portfólio de Braian Baron</h1>
+        <div class="container-fluid" id="container_home_p">
+            <p>Inspiração:</p>
+            <a href="https://nobl.io">nobl.io</a>
+        </div>
     </div>
 </body>
 </html>
