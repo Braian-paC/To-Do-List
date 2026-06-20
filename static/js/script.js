@@ -1,5 +1,8 @@
-document.getElementById("arrow_button_home").addEventListener("click", () => {
+document.getElementById("arrow_button_home_down").addEventListener("click", () => {
     scrollDown()
+})
+document.getElementById("arrow_button_home_up").addEventListener("click", () => {
+    scrollUp()
 })
 
 document.getElementById("nobl_button").addEventListener("click", () => {
@@ -7,5 +10,8 @@ document.getElementById("nobl_button").addEventListener("click", () => {
 })
 
 function scrollDown() {
-    window.scroll(0, window.scrollY + 1080)
+    window.scrollTo(0, 750)
+}
+function scrollUp() {
+    window.scrollTo(0, 0)
 }
