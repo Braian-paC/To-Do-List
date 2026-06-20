@@ -1,0 +1,12 @@
+#container_project {
+    background-color: #F9F0E3;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container_project h1 {
+    font-family: 'Neogen';
+    font-size: 10vh;
+    padding-top: 2vh;
+}
