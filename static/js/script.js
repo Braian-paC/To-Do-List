@@ -1,7 +1,7 @@
 document.getElementById("arrow_button_home_down").addEventListener("click", () => {
     scrollDown()
 })
-document.getElementById("arrow_button_home_up").addEventListener("click", () => {
+document.getElementById("arrow_button_project_up").addEventListener("click", () => {
     scrollUp()
 })
 

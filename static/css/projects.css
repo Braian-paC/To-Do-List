@@ -1,46 +1,49 @@
-#container_projects {
+.container_arrow_button_project_up {
     display: flex;
-    flex-direction: row;
-    height: 85vh;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 50%;
+    margin-left: 40rem;
 }
 
-#container_projects h1 {
-    font-family: CaviarDreams;
-    font-size: 10vh;
+#arrow_button_project_up:hover img{
+    width: 120px;
+    height: 120px;
 }
 
-#container_last_projects {
-    display: flex;
-    justify-content: center;
-    height: 20vh;
-}
-
-#container_last_projects h1 {
-    font-family: 'Neogen';
-    font-size: 10vh;
-    padding-top: 2vh;
-}
-
-#arrow_button_home_up img {
+#arrow_button_project_up img {
     transform: rotate(180deg);
     transition: 0.2s;
     transition-delay: 0.1s
 }
 
-#arrow_button_home_up:hover img{
-    width: 120px;
-    height: 120px;
-}
-
-.container_home_arrowup {
-    display: flex;
-    justify-content: center;
-}
-
-#arrow_button_home_up {
+.container_projects {
     display: flex;
     flex-direction: row;
-    padding-right: 5rem;
+
+    height: 85vh;
+}
+
+.container_projects h1 {
+    font-family: CaviarDreams;
+    font-size: 10vh;
+}
+
+.container_projects_01 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin-left: 6rem;
+}
+
+.container_projects_02 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-right: 6rem;
 }
 
 #button_project01, #button_project02 {
